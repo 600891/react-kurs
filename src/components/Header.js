@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <AppBar position="static" style={{backgroundColor: "lightblue"}}>
       <Toolbar>
-        <img src="http://www.glittertextonline.com/donez/z654bb012dc4de.gif"/>
+        <img src="/nora.gif"/>
       </Toolbar>
     </AppBar>
   );
