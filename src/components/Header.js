@@ -1,13 +1,11 @@
 import * as React from "react";
-import { AppBar, Toolbar, Typography } from "@mui/material";
+import { AppBar, Switch, Toolbar, Typography } from "@mui/material";
 
 export default function Header() {
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{backgroundColor: "lightblue"}}>
       <Toolbar>
-        <Typography variant="h6" noWrap>
-          Daily
-        </Typography>
+        <img src="http://www.glittertextonline.com/donez/z654bb012dc4de.gif"/>
       </Toolbar>
     </AppBar>
   );

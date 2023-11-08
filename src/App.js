@@ -7,7 +7,11 @@ import ImageComponent from "./components/ImageComponent";
 
 export default function App() {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" sx={
+      {
+        backgroundColor: "lightgray"
+      }
+    }>
       <Header />
       <Stack direction="column" spacing={2} mt={2}>
         <Description />
